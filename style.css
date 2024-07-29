@@ -1,0 +1,28 @@
+*{       margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo>img{
+    width: 100px;
+    height: 80px;
+}
+.names>ul>li {display: inline-block; margin: 20px; color: white; font-size: large; font-family: 'Times New Roman', Times, serif;}
+.names{
+    position: relative; left: 120px;
+    bottom: 75px;
+
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  .header{
+    max-width: 448px;
+   min-width: 720px;
+   display: block;
+  }
+}
